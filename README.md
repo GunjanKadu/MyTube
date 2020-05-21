@@ -13,21 +13,21 @@ To use it, you need to set up a [Youtube Data v3 API key](https://productioncode
 
 <h1 align="center">Below, you'll find a step by step explanation</h1>
 
-<h2 align="center">Getting a Youtube Data API key</h2>
-1. Head over to the [Google developers console](https://console.developers.google.com)
-2. Create a new project by clicking on `Select project` drop down right next to the logo. Click the `New Project` button an give it a speaking name.
-3. Select your project by choosing it in the `Select Dropdown` directly next to the logo in the header.
-4. Click the `Enable APIs and Services` button
-5. Search for `youtube data`
-6. Click on the `Youtube Data API v3`
-7. Click the blue enable button
-8. In the dashboard, click `Credentials` on the left sidebar
-9. Click the `Create Credential` button
-10. Which API are you using: `Youtube Data API v3`
-11. Where will you be calling the API from: `Web browser`
-12. What data are you accessing: `Public data`
-13. Click the `What credentials do I need button`
-14. **Copy the API key, and paste it into `src/App.js`**
+<h2 align="center">Getting a Youtube Data API key</h2><br/>
+1. Head over to the [Google developers console](https://console.developers.google.com)<br/>
+2. Create a new project by clicking on `Select project` drop down right next to the logo. Click the `New Project` button an give it a speaking name.<br/>
+3. Select your project by choosing it in the `Select Dropdown` directly next to the logo in the header.<br/>
+4. Click the `Enable APIs and Services` button<br/>
+5. Search for `youtube data`<br/>
+6. Click on the `Youtube Data API v3`<br/>
+7. Click the blue enable button<br/>
+8. In the dashboard, click `Credentials` on the left sidebar<br/>
+9. Click the `Create Credential` button<br/>
+10. Which API are you using: `Youtube Data API v3`<br/>
+11. Where will you be calling the API from: `Web browser`<br/>
+12. What data are you accessing: `Public data`<br/>
+13. Click the `What credentials do I need button`<br/>
+14. **Copy the API key, and paste it into `src/App.js`**<br/>
 ```
 const API_KEY = 'AIzaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 ```
@@ -66,20 +66,20 @@ yarn test
 ```
 
 <h1 align="center">Features</h1>
-This application includes the major features of Youtube such as
-* home feed with infinite scroll
-* trending videos
-* searching for videos
-* watching videos
+This application includes the major features of Youtube such as<br/>
+* home feed with infinite scroll<br/>
+* trending videos<br/>
+* searching for videos<br/>
+* watching videos<br/>
 * displaying comments and video details
 
-<h1 align="center">Used technologies</h1>
-* [React / create-react-app](https://github.com/facebook/create-react-app)
-* [Redux](https://redux.js.org/)
-* [Redux-saga](https://redux-saga.js.org/)
-* [Redux-reselect](https://github.com/reduxjs/reselect)
-* [Jest](https://jestjs.io/)
-* [Enzyme](https://airbnb.io/enzyme/)
-* [Semantic UI](https://react.semantic-ui.com/)
+<h1 align="center">Used technologies</h1><br/>
+* [React / create-react-app](https://github.com/facebook/create-react-app)<br/>
+* [Redux](https://redux.js.org/)<br/>
+* [Redux-saga](https://redux-saga.js.org/)<br/>
+* [Redux-reselect](https://github.com/reduxjs/reselect)<br/>
+* [Jest](https://jestjs.io/)<br/>
+* [Enzyme](https://airbnb.io/enzyme/)<br/>
+* [Semantic UI](https://react.semantic-ui.com/)<br/>
 * CSS Grid / Flexbox
 
