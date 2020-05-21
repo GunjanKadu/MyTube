@@ -2,9 +2,10 @@
 This repository is the source code for Building Youtube in React
 
 
-<h1 align="center">Screenshots</h1>
+<h1 align="center">Demo</h1>
 UI-wise this application looks **almost exactly like the original Youtube application**
 
+![](gif/Demo.gif)
 
 <h1 align="center">How to run this application</h1>
 This application loads information using the [Youtube Data API v3](https://developers.google.com/youtube/v3/docs/).
